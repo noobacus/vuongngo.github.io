@@ -12,6 +12,6 @@ public class WebPageController {
 
     @GetMapping({"/", "/home"})
     public String getHome() {
-        return "home";
+        return "index";
     }
 }
